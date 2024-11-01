@@ -2,6 +2,5 @@ import { createClient } from "@dynamic-labs/client";
 import { WebExtension } from "@dynamic-labs/web-extension";
 
 export const dynamicClient = createClient({
-  apiBaseUrl: "https://app.dynamic-preprod.xyz/api/v0",
-  environmentId: "36107460-1867-45d5-901b-6a3581025990",
+  environmentId: "0ea95bd7-40a3-45fd-8eae-2b844146306d",
 }).extend(WebExtension());
